@@ -1,0 +1,112 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+	background-color: deepskyblue;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: aliceblue;
+}
+
+section {
+}
+	
+		#left {
+			float: left;
+			text-align: center;
+			background-color: aliceblue;
+			color: gray;
+			width: 33%;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+
+		#middle {
+			float: left;
+			text-align: center;
+			background-color: powderblue;
+			color: white;
+			width: 34%;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+
+		#right {
+			float: left;
+			text-align: center;
+			background-color: aliceblue;
+			color: gray;
+			width: 33%;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+
+		#full {
+			float:left;
+			width: 100%;
+			color: black;
+			background-color: bisque;
+			padding: 10px;
+			height: 300px;
+			overflow: auto;
+			clear: both;
+		}
+
+		#division {
+			width: 100%;
+			padding: 20px;
+
+		}
+
+aside {
+	height: 100%;
+	width: 230px;
+	float: left;
+	padding: 10px 30px 10px 30px;
+	background-color: white;
+}
+
+footer {
+	padding: 1em;
+	background-color: steelblue;
+	overflow: auto;
+	clear: both;
+}
+
+#name {
+	font-family: serif;
+	font-size: 40px;
+	color: midnightblue;
+}
+.sidebar {
+	text-align: right;
+}
+
+#profile_picture {
+	width: 165px;
+}
+
+#footer_ {
+	color: aliceblue;
+}
+
+#aboutmedesc {
+	color: midnightblue;
+	font-family: sans-serif;
+	font-size: 19px;
+}
+/*.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
